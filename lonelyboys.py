@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 nInst=100
 currentPos = np.zeros(nInst)
 
-def getMyPosition(prcSoFar, n):
+def getMyPosition(prcSoFar):
     global currentPos
     (nins,nt) = prcSoFar.shape
     currentPos = np.zeros(100)
